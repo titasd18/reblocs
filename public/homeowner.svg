@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-park-outline:personal-privacy copy@2x</title>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Reblocs---Homepage" transform="translate(-280.000000, -1192.000000)">
+            <g id="How-it-works" transform="translate(280.000000, 908.000000)">
+                <g id="icon-park-outline:personal-privacy-copy" transform="translate(0.000000, 284.000000)">
+                    <rect id="ViewBox" x="0" y="0" width="48" height="48"></rect>
+                    <g id="Group" stroke-linecap="round" stroke-linejoin="round" transform="translate(5.000000, 6.000000)">
+                        <circle id="Oval" stroke="#000000" stroke-width="1.5" cx="20" cy="7" r="7"></circle>
+                        <path d="M0,37 C0,28.163 8.059,21 18,21" id="Path" stroke="#000000" stroke-width="1.5"></path>
+                        <polygon id="Path" points="24 26.3333333 24 37 37 37 37 26.3333333 30.5 21"></polygon>
+                        <polygon id="Path" stroke="#000000" stroke-width="1.5" fill="#EEFF32" points="23.25 37 23.25 26.3333333 21 28.1111111 30 21 39 28.1111111 36.75 26.3333333 36.75 37"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

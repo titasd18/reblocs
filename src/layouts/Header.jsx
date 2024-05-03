@@ -1,3 +1,5 @@
+import ActionButton from "../components/ActionButton";
+
 const Header = () => {
   return (
     <div id="header" className="h-[125px]">
@@ -14,24 +16,42 @@ const Header = () => {
         </a>
         {/** Navbar */}
         <nav className="flex items-center m-auto gap-12">
-          <a href="/" className="text-black text-base tracking-normal relative">
+          <a
+            href="/"
+            className="text-[#222222] text-base tracking-normal relative"
+          >
             Home
           </a>
-          <a href="/" className="text-black text-base tracking-normal relative">
+          <a
+            href="/"
+            className="text-[#222222] text-base tracking-normal relative"
+          >
             Small house owner
           </a>
-          <a href="/" className="text-black text-base tracking-normal relative">
+          <a
+            href="/"
+            className="text-[#222222] text-base tracking-normal relative"
+          >
             Investor
           </a>
-          <a href="/" className="text-black text-base tracking-normal relative">
+          <a
+            href="/"
+            className="text-[#222222] text-base tracking-normal relative"
+          >
             Quiz
           </a>
-          <a href="/" className="text-black text-base tracking-normal relative">
+          <a
+            href="/"
+            className="text-[#222222] text-base tracking-normal relative"
+          >
             Contact
           </a>
-          <button className="inline-block min-w-[182.5px] cursor-pointer text-base font-medium text-center px-6 py-3 transition-all duration-300 bg-black border rounded border-black text-white hover:bg-[#EEFF32] hover:border-[#EEFF32] hover:text-black">
-            I am interested!
-          </button>
+          <ActionButton
+            title={"I am interested!"}
+            customClass={
+              "min-w-[182.5px] text-base px-6 py-3 bg-[#222222] border-black text-white hover:bg-[#EEFF32] hover:border-[#EEFF32] hover:text-[#222222]"
+            }
+          />
         </nav>
       </header>
     </div>

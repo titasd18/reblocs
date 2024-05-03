@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/mail@2x</title>
+    <g id="icons/mail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="ViewBox" x="0" y="0" width="18" height="18"></rect>
+        <g id="Group" stroke-linejoin="round" transform="translate(1.500000, 3.375000)" stroke="#000000" stroke-width="1.5">
+            <polygon id="Path" points="0 11.25 15 11.25 15 0 0 0"></polygon>
+            <polyline id="Path" stroke-linecap="round" points="0 0 7.5 5.625 15 0"></polyline>
+            <path d="M7.5,0 L0,0 L0,5.625 M15,5.625 L15,0 L7.5,0" id="Shape" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>
