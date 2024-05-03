@@ -4,8 +4,7 @@ import Footer from "./layouts/Footer";
 import ActionButton from "./components/ActionButton";
 import SignUpForm from "./layouts/SignUpForm";
 import OwnerCard from "./layouts/OwnerCard";
-import FormInput from "./components/FormInput";
-import TextArea from "./components/TextArea";
+import ContactSection from "./layouts/ContactSection";
 
 function App() {
   return (
@@ -20,24 +19,15 @@ function App() {
                 className="text-[#222222] text-[42px] font-thin leading-[53px]"
                 // style="line-height:53px"
               >
-                <font style={{ verticalAlign: "inherit" }}>
-                  <font style={{ verticalAlign: "inherit" }}>
-                    Free up your detached house capital or invest in detached
-                    houses
-                  </font>
-                </font>
+                Free up your detached house capital or invest in detached houses
               </h1>
               <div>
                 <p className="mt-12 text-lg font-light">
-                  <font style={{ verticalAlign: "inherit" }}>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      Reblocs is building a unique marketplace that gives you
-                      access to your tied-up home equity or allows you to invest
-                      in single-family homes (or both). Do you want to be
-                      involved from the start? Take our test here to see if
-                      Reblocs is for you and get on the waiting list.
-                    </font>
-                  </font>
+                  Reblocs is building a unique marketplace that gives you access
+                  to your tied-up home equity or allows you to invest in
+                  single-family homes (or both). Do you want to be involved from
+                  the start? Take our test here to see if Reblocs is for you and
+                  get on the waiting list.
                 </p>
                 <ActionButton
                   title={"Take the test here!"}
@@ -52,21 +42,11 @@ function App() {
         </div>
         {/** Section 2 */}
         <section className="mx-auto mt-40 mb-0 max-w-[900px] w-full px-6 py-0">
-          <p className="text-[#757575] text-base">
-            <font style={{ verticalAlign: "inherit" }}>
-              <font style={{ verticalAlign: "inherit" }}>
-                How does it happen
-              </font>
-            </font>
-          </p>
+          <p className="text-[#757575] text-base">How does it happen</p>
           <p className="mt-8 max-w-[624px] text-[25px] font-medium">
-            <font style={{ verticalAlign: "inherit" }}>
-              <font style={{ verticalAlign: "inherit" }}>
-                Reblocs frees up the tied-up housing values of single-family
-                home owners and makes it an investable asset - without putting a
-                finger on ownership.
-              </font>
-            </font>
+            Reblocs frees up the tied-up housing values of single-family home
+            owners and makes it an investable asset - without putting a finger
+            on ownership.
           </p>
           <div className="flex justify-between mt-[120px] gap-24">
             <OwnerCard
@@ -99,43 +79,24 @@ function App() {
               </div>
             </div>
             <div style={{ gridColumn: "8 / span 4" }}>
-              <p className="text-[#757575] text-[15px]">
-                <font style={{ verticalAlign: "inherit" }}>
-                  <font style={{ verticalAlign: "inherit" }}>About us</font>
-                </font>
-              </p>
+              <p className="text-[#757575] text-[15px]">About us</p>
               <p className="my-8 text-[#222222] text-[32px] font-medium leading-[35px]">
-                <font style={{ verticalAlign: "inherit" }}>
-                  <font style={{ verticalAlign: "inherit" }}>
-                    Set the housing market free!
-                  </font>
-                </font>
+                Set the housing market free!
               </p>
               <p>
-                <font style={{ verticalAlign: "inherit" }}>
-                  <font style={{ verticalAlign: "inherit" }}>
-                    We think it is backwards that the lion&apos;s share of many
-                    home owners capital is tied up, not only in a single asset
-                    class, but also in a single object within the asset class -
-                    our homes. We also think it is wrong that the detached house
-                    market cannot be invested in in other ways than buying
-                    entire properties.{" "}
-                  </font>
-                </font>
+                We think it is backwards that the lion&apos;s share of many home
+                owners capital is tied up, not only in a single asset class, but
+                also in a single object within the asset class - our homes. We
+                also think it is wrong that the detached house market cannot be
+                invested in in other ways than buying entire properties. <br />
                 <br />
-                <br />
-                <font style={{ verticalAlign: "inherit" }}>
-                  <font style={{ verticalAlign: "inherit" }}>
-                    Our vision is to unlock the single-family home market so
-                    that home owners can sell parts of the value and let others
-                    invest in the value shares. This creates opportunities for
-                    reduced indebtedness, home renovations, better distribution
-                    of the household&apos;s investments or to buy something
-                    you&apos;ve been longing for. In addition, with our model,
-                    ownership remains unchanged and the owner pays no interest
-                    or rent.
-                  </font>
-                </font>
+                Our vision is to unlock the single-family home market so that
+                home owners can sell parts of the value and let others invest in
+                the value shares. This creates opportunities for reduced
+                indebtedness, home renovations, better distribution of the
+                household&apos;s investments or to buy something you&apos;ve
+                been longing for. In addition, with our model, ownership remains
+                unchanged and the owner pays no interest or rent.
               </p>
             </div>
           </section>
@@ -148,37 +109,22 @@ function App() {
               style={{ gridColumn: "2 / span 5" }}
             >
               <h1 className="text-[15px] leading-6 text-[#757575]">
-                <font style={{ verticalAlign: "inherit" }}>
-                  <font style={{ verticalAlign: "inherit" }}>
-                    Expression of interest
-                  </font>
-                </font>
+                Expression of interest
               </h1>
               <div className="mt-8">
                 <p className="text-[42px] leading-[46px] font-thin">
-                  <font style={{ verticalAlign: "inherit" }}>
-                    <font style={{ verticalAlign: "inherit" }}>
-                      Does it sound{" "}
-                    </font>
-                  </font>
+                  Does it sound{" "}
                   <font
                     className="relative z-[1] after:absolute after:w-[105%] after:h-[30%] after:left-[50%] after:transform after:translate-x-[-50%] after:top-[60%] after:-z-[1] after:bg-[#EEFF32]"
                     style={{ verticalAlign: "inherit" }}
                   >
-                    <font style={{ verticalAlign: "inherit" }}>
-                      interesting?
-                    </font>
+                    interesting?
                   </font>
                 </p>
               </div>
               <p className="mt-12 text-[17px] font-light leading-7 text-[#222222]">
-                <font style={{ verticalAlign: "inherit" }}>
-                  <font style={{ verticalAlign: "inherit" }}>
-                    Do you want to join the journey towards freer access to
-                    housing capital and a democratized market for real estate
-                    investments?
-                  </font>
-                </font>
+                Do you want to join the journey towards freer access to housing
+                capital and a democratized market for real estate investments?
               </p>
               <ActionButton
                 title={"I am interested!"}
@@ -201,11 +147,7 @@ function App() {
                 className="text-white text-[32px] font-medium tracking-normal leading-10"
                 style={{ gridColumn: "2 / span 2" }}
               >
-                <font style={{ verticalAlign: "inherit" }}>
-                  <font style={{ verticalAlign: "inherit" }}>
-                    How can we help you?
-                  </font>
-                </font>
+                How can we help you?
               </h2>
               <p
                 className="pl-[42px] text-[15px] leading-6 text-[#858585] self-center max-w-[506px]"
@@ -225,51 +167,7 @@ function App() {
           </section>
         </div>
         {/** Section 5 */}
-        <div className="overflow-hidden">
-          <section className="mt-16 grid grid-cols-12 gap-6 items-center mx-auto mb-0 max-w-[1320px]">
-            <div style={{ gridColumn: "2 / span 5" }}>
-              <p className="text-[15px] leading-6 text-[#757575] font-light">
-                Contact
-              </p>
-              <p className="mt-8 text-[#222222] text-[25px] leading-9 font-medium">
-                Still something you wonder? Drop us a line and we&apos;ll get
-                back to you as soon as possible.
-              </p>
-              <form className="mt-12 grid grid-cols-1 gap-3">
-                <FormInput id={"name"} title={"Name"} />
-                <FormInput id={"email"} title={"E-Mail"} />
-                <TextArea
-                  id={"message"}
-                  title={"Message"}
-                  style={{ gridColumn: "1 / 3" }}
-                  inputStyle={{ minHeight: "96px" }}
-                />
-                <div
-                  className="flex items-center justify-between"
-                  style={{ gridColumn: "1 / 3" }}
-                >
-                  <div className="text-[13px] leading-6 text-[#757575] max-w[350px]">
-                    <div className="flex flex-row items-start">
-                      <input
-                        type="checkbox"
-                        id="privacy"
-                        name="privacy"
-                        style={{
-                          clip: "rect(0px, 0px, 0px, 0px)",
-                          clipPath: "inset(50%)",
-                        }}
-                        className="h-[1px] w-[1px] overflow-hidden absolute whitespace-nowrap ml-[37px]"
-                      />
-                    </div>
-                    <div className=""></div>
-                  </div>
-                  <div className=""></div>
-                </div>
-              </form>
-            </div>
-            <div className=""></div>
-          </section>
-        </div>
+        <ContactSection />
       </main>
       <Footer />
     </>

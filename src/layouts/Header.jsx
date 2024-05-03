@@ -18,31 +18,31 @@ const Header = () => {
         <nav className="flex items-center m-auto gap-12">
           <a
             href="/"
-            className="text-[#222222] text-base tracking-normal relative"
+            className="text-[#222222] text-base tracking-normal relative hover:scale-125 hover:duration-300"
           >
             Home
           </a>
           <a
             href="/"
-            className="text-[#222222] text-base tracking-normal relative"
+            className="text-[#222222] text-base tracking-normal relative hover:scale-125 hover:duration-300"
           >
             Small house owner
           </a>
           <a
             href="/"
-            className="text-[#222222] text-base tracking-normal relative"
+            className="text-[#222222] text-base tracking-normal relative hover:scale-125 hover:duration-300"
           >
             Investor
           </a>
           <a
             href="/"
-            className="text-[#222222] text-base tracking-normal relative"
+            className="text-[#222222] text-base tracking-normal relative hover:scale-125 hover:duration-300"
           >
             Quiz
           </a>
           <a
             href="/"
-            className="text-[#222222] text-base tracking-normal relative"
+            className="text-[#222222] text-base tracking-normal relative hover:scale-125 hover:duration-300"
           >
             Contact
           </a>

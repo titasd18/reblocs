@@ -7,11 +7,7 @@ const OwnerCard = ({ img, buttonTitle, text }) => {
       <img src={img} alt="" className="w-full h-12" />
 
       <div>
-        <p className="text-lg font-light">
-          <font style={{ verticalAlign: "inherit" }}>
-            <font style={{ verticalAlign: "inherit" }}>{text}</font>
-          </font>
-        </p>
+        <p className="text-lg font-light">{text}</p>
         <ActionButton
           title={buttonTitle}
           customClass={

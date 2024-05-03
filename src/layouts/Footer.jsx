@@ -6,19 +6,19 @@ const Footer = () => {
         <div className="flex gap-8">
           <a
             href="/"
-            className="text-[#222222] font-medium text-sm tracking-normal relative"
+            className="text-black font-medium text-sm tracking-normal relative"
           >
             Sign up
           </a>
           <a
             href="/"
-            className="text-[#222222] font-medium text-sm tracking-normal relative"
+            className="text-black font-medium text-sm tracking-normal relative"
           >
             Quiz
           </a>
           <a
             href="/"
-            className="text-[#222222] font-medium text-sm tracking-normal relative"
+            className="text-black font-medium text-sm tracking-normal relative"
           >
             Contact
           </a>
@@ -33,14 +33,14 @@ const Footer = () => {
           </span>
           <a
             href="mailto:hello@reblocs.co"
-            className="text-[#222222] text-sm font-medium tracking-normal relative ml-3"
+            className="text-black text-sm font-medium tracking-normal relative ml-3 hover:scale-125 hover:duration-300"
           >
             hello@reblocs.co
           </a>
         </div>
         <div className="flex gap-1">
           <p className="text-[#757575] text-sm mr-4">follow us</p>
-          <a href="/" className="h-6 w-6">
+          <a href="/" className="h-6 w-6 hover:scale-125 hover:duration-300">
             <svg width="24px" height="24px" viewBox="0 0 24 24">
               <g
                 id="icons/social/fb"
@@ -59,7 +59,7 @@ const Footer = () => {
               </g>
             </svg>
           </a>
-          <a href="/" className="h-6 w-6">
+          <a href="/" className="h-6 w-6 hover:scale-125 hover:duration-300">
             <svg
               className="insta"
               width="24px"
@@ -114,7 +114,7 @@ const Footer = () => {
               </g>
             </svg>
           </a>
-          <a href="/" className="h-6 w-6">
+          <a href="/" className="h-6 w-6 hover:scale-125 hover:duration-300">
             <svg width="24px" height="24px" viewBox="0 0 24 24">
               <g
                 id="icons/social/linked"

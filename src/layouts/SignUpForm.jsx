@@ -19,19 +19,11 @@ const SignUpForm = () => {
       <div className="h-full py-12 px-16 bg-white">
         <div className="max-w-[280px]">
           <h2 className="leading-10 text-[#222222] text-4xl font-medium">
-            <font style={{ verticalAlign: "inherit" }}>
-              <font style={{ verticalAlign: "inherit" }}>
-                Does it sound interesting?
-              </font>
-            </font>
+            Does it sound interesting?
           </h2>
           <p className="mt-6 text-base text-[#757575]">
-            <font style={{ verticalAlign: "inherit" }}>
-              <font style={{ verticalAlign: "inherit" }}>
                 Sign up for the waiting list to stay updated before the launch
                 and be among the first to use our service.
-              </font>
-            </font>
           </p>
           <form className="mt-6 w-full">
             <FormInput id={"name"} title={"Name"} />
